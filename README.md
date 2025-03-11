@@ -94,15 +94,15 @@ Yes, IntelliJ Profiler is very effective because:
 ### Performance Test (CLI)
 
 - **test_plan_1 jtl**  
-  ![Performance Test CLI - Test Plan 1](./assets/images/test_plan_1 jtl.png)  
+  ![Performance Test CLI - Test Plan 1](./assets/images/test_plan_1jtl.png)  
   *Explanation:* This CLI output screenshot from JMeter presents the raw performance metrics (e.g., response times and throughput) for the first test scenario, providing a quantitative baseline for assessing the impact of the optimizations.
 
 - **test_plan_2 jtl**  
-  ![Performance Test CLI - Test Plan 2](./assets/images/test_plan_2 jtl.png)  
+  ![Performance Test CLI - Test Plan 2](./assets/images/test_plan_2jtl.png)  
   *Explanation:* The second CLI output shows performance data under a different load scenario. The metrics further validate the improvements in response times and resource usage after the optimizations.
 
 - **test_plan_3 jtl**  
-  ![Performance Test CLI - Test Plan 3](./assets/images/test_plan_3 jtl.png)  
+  ![Performance Test CLI - Test Plan 3](./assets/images/test_plan_3jtl.png)  
   *Explanation:* This final CLI screenshot confirms the performance results from the third test scenario. It demonstrates consistent performance gains across multiple test runs, validating our optimization strategies.
 
 ---
