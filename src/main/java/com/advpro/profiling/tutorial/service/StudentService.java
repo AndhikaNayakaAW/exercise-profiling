@@ -1,3 +1,4 @@
+//src/main/java/com/advpro/profiling/tutorial/service/StudentService.java
 package com.advpro.profiling.tutorial.service;
 
 import com.advpro.profiling.tutorial.model.Student;
@@ -24,18 +25,7 @@ public class StudentService {
     private StudentCourseRepository studentCourseRepository;
 
     public List<StudentCourse> getAllStudentsWithCourses() {
-        List<Student> students = studentRepository.findAll();
-        List<StudentCourse> studentCourses = new ArrayList<>();
-        for (Student student : students) {
-            List<StudentCourse> studentCoursesByStudent = studentCourseRepository.findByStudentId(student.getId());
-            for (StudentCourse studentCourseByStudent : studentCoursesByStudent) {
-                StudentCourse studentCourse = new StudentCourse();
-                studentCourse.setStudent(student);
-                studentCourse.setCourse(studentCourseByStudent.getCourse());
-                studentCourses.add(studentCourse);
-            }
-        }
-        return studentCourses;
+        return studentCourseRepository.findAllWithStudentAndCourse();
     }
 
     public Optional<Student> findStudentWithHighestGpa() {
@@ -60,4 +50,3 @@ public class StudentService {
         return result.substring(0, result.length() - 2);
     }
 }
-
