@@ -91,6 +91,21 @@ Yes, IntelliJ Profiler is very effective because:
   ![Performance Test GUI - Test Plan 3](./assets/images/test_plan_3.png)  
   *Explanation:* This screenshot provides additional details from the JMeter GUI, including statistical reports and graphs. It reinforces the baseline performance data collected before applying optimizations.
 
+#### Optimized Test Plans
+
+- **testplan1optimized.png**  
+  ![Performance Test GUI - Test Plan 1 (Optimized)](./assets/images/testplan1optimized.png)  
+  *Explanation:* This screenshot shows the optimized version of Test Plan 1. There are a lot of improvements in response times and throughput compared to the baseline, indicating that the code optimizations have significantly enhanced performance.
+
+- **testplan2optimized.png**  
+  ![Performance Test GUI - Test Plan 2 (Optimized)](./assets/images/testplan2optimized.png)  
+  *Explanation:* This image displays the optimized version of Test Plan 2. We observe a marked improvement in average response time and overall stability under heavier load, demonstrating the effectiveness of our refactoring and resource management strategies.
+
+- **testplan3optimized.png**  
+  ![Performance Test GUI - Test Plan 3 (Optimized)](./assets/images/testplan3optimized.png)  
+  *Explanation:* This screenshot confirms the improvements in Test Plan 3 under the optimized code. The performance gains are consistent across multiple runs, showcasing lower latency and higher throughput even under significant concurrent load.
+
+
 ### Performance Test (CLI)
 
 - **test_plan_1 jtl**  
